@@ -28,7 +28,7 @@ const ViewProduct = ()=>{
   return (
     <>
       <Helmet>
-        <title> DooZieDo </title>
+        <title> Toynique </title>
       </Helmet>  
       <h5 className="mb-3">{productData && productData.productName}</h5>
       <div className="row">
@@ -36,7 +36,7 @@ const ViewProduct = ()=>{
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
               <div>
-                <img src={`${productData && productData.thumbnailImage}`} alt="doozie-do" className="border rounded w-100 img-fluid" />
+                <img src={`${productData && productData.thumbnailImage}`} alt="toynique" className="border rounded w-100 img-fluid" />
               </div>
             </div>
             
@@ -44,7 +44,7 @@ const ViewProduct = ()=>{
                 return (
                   <div className="col-lg-4 col-md-4 col-sm-6 col-12 mb-3" key={i}>
                     <div>
-                    <img src={`${cv}`} alt="doozie-do" className="border rounded w-100 img-fluid" />
+                    <img src={`${cv}`} alt="toynique" className="border rounded w-100 img-fluid" />
                     </div>
                   </div>
                 )

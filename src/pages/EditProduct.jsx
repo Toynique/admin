@@ -182,7 +182,7 @@ const EditProduct = () => {
   return (
     <>
     <Helmet>
-        <title> Update Product DooZieDo </title>
+        <title> Update Product Toynique </title>
     </Helmet>
  
 

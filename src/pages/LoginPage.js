@@ -46,7 +46,7 @@ export default function LoginPage() {
   return (
     <>
       <Helmet>
-        <title> Login | DooZieDO   </title>
+        <title> Login | Toynique   </title>
       </Helmet>
 
       <StyledRoot>
@@ -70,7 +70,7 @@ export default function LoginPage() {
         <Container maxWidth="sm">
           <StyledContent>
             <Typography variant="h4" gutterBottom>
-              Sign in to DooZieDO
+              Sign in to Toynique
             </Typography>
             
             <LoginForm />

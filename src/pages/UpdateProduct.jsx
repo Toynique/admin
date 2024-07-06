@@ -8,7 +8,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 
 
-import { ImageUrl, Url, awsFileUrl } from "../url/url";
+import {  Url, awsFileUrl } from "../url/url";
 import 'react-quill/dist/quill.snow.css';
 import EditorToolbar, { modules, formats } from "../utils/EditorToolbar";
 import "../App.css"

@@ -3,7 +3,7 @@ import { useDispatch  } from 'react-redux';
 import Swal from 'sweetalert2'
 import axios from 'axios'
 import { Link } from 'react-router-dom';
-import { ImageUrl, Url } from '../../../url/url';
+import { Url } from '../../../url/url';
 import { productdata } from '../../../redux/slice/product'
 
 
