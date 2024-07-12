@@ -43,7 +43,7 @@ const AddBlog = () => {
         setUploadLoading(true)
         try { 
             if (file) {
-                const response = await axios.post(`${Url}/api/createPresignedUrl/blogs`, { fileName: file.name, fileType: file.type })
+                const response = await axios.post(`${Url}/api/createPresignedUrl/blogs`, { fileName: file.name, fileType: file.type }) 
                 if (response.status === 200) {
                     const { preSignedUrl, key, fileType } = response?.data
                     const responseFileSave = await axios.put(preSignedUrl, file, {
@@ -51,8 +51,7 @@ const AddBlog = () => {
                             const progress = Math.round((progressEvent.loaded * 100) / progressEvent.total); 
                             setProgressValue(progress)
                         },
-                    })
-                    console.log("responseFileSave", responseFileSave);
+                    }) 
                     if (responseFileSave.status === 200) {
                         const fileUrl = `${awsFileUrl}/${key}` 
                         setFormValue({ ...formValue, [name]: fileUrl })
