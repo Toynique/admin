@@ -6,6 +6,7 @@ import UserSlice from './slice/user'
 import blogSlice from './slice/blog'  
 import CharacterSlice from './slice/character'  
 import SubCharacterSlice from './slice/subcharacter'  
+import BannerSlice from './slice/banner'  
 
 export  const store = configureStore({
     reducer : {
@@ -16,5 +17,6 @@ export  const store = configureStore({
         "blog" : blogSlice, 
         "character" : CharacterSlice, 
         "subcharacter" : SubCharacterSlice, 
+        "banner" : BannerSlice, 
     }
 })

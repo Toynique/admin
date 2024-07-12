@@ -18,6 +18,8 @@ import User from './pages/User';
 import AddBlog from './pages/AddBlog';
 import EditBlog from './pages/EditBlog';
 import UpdateProduct from './pages/UpdateProduct';
+import BannerPage from './pages/Banner';
+import AddBanner from './pages/AddBanner';
 
 // ----------------------------------------------------------------------
 
@@ -40,6 +42,8 @@ export default function Router() {
         { path: 'edit-product/:id', element: <EditProduct/> },
         { path: 'updateproduct/:id', element: <UpdateProduct/> },
         { path: 'product/:id', element: <ViewProduct/> },
+        { path: 'banner', element: <BannerPage/> },
+        { path: 'add-banner', element: <AddBanner/> },
       ],
     },
     {

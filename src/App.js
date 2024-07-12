@@ -17,6 +17,7 @@ import {userdata} from './redux/slice/user'
 import { blogdata } from './redux/slice/blog';
 import { characterdata } from './redux/slice/character';
 import { subcharacterdata } from './redux/slice/subcharacter';
+import { bannerdata } from './redux/slice/banner';
 
 // ----------------------------------------------------------------------
 
@@ -30,6 +31,7 @@ export default function App() {
     dispatch(productdata()) 
     dispatch(userdata()) 
     dispatch(blogdata()) 
+    dispatch(bannerdata()) 
   }, []) 
   return (
     <>
