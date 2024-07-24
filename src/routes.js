@@ -20,6 +20,8 @@ import EditBlog from './pages/EditBlog';
 import UpdateProduct from './pages/UpdateProduct';
 import BannerPage from './pages/Banner';
 import AddBanner from './pages/AddBanner';
+import Order from './pages/Order';
+import OrderView from './pages/OrderView';
 
 // ----------------------------------------------------------------------
 
@@ -44,6 +46,8 @@ export default function Router() {
         { path: 'product/:id', element: <ViewProduct/> },
         { path: 'banner', element: <BannerPage/> },
         { path: 'add-banner', element: <AddBanner/> },
+        { path: 'orders', element: <Order/> },
+        { path: 'order/:orderId', element: <OrderView/> },
       ],
     },
     {
