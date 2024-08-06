@@ -9,13 +9,15 @@
 }
 .css-qeglhl, .css-13dpel6{
     width: auto !important;
-}
-/* .ql-container .ql-snow{
-    height: 150px !important;
-} */
-
+} 
 .ql-editor{
     height: 150px !important;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.lh-0{
+    line-height: 0;
 }
 
 a{
@@ -74,3 +76,10 @@ a:hover{
     transition: opacity 300ms, transform 300ms;
   }
   
+  .remove{
+    line-height: .5;   
+    padding: 3px 3px 6px 3px;
+  }
+  .text-add{
+    color: rgba(169, 169, 177, 0.489);
+  }

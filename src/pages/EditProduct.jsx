@@ -235,7 +235,10 @@ const EditProduct = () => {
                             <div className="mt-2 d-flex flex-wrap">
                                 {oldImages && oldImages.map((cv, i)=>{
                                     return(
-                                        <img key={i} src={`${Url}/${cv}`} alt="" style={{width: "100px"}} className="border rounded me-1 mb-1"/> 
+                                        <div className="position-relative" key={i}>
+                                        <img  src={`${Url}/${cv}`} alt="" style={{width: "100px"}} className="border rounded me-1 mb-1"/>
+                                        <span className="position-absolute top-0 end-0 text-danger">-</span> 
+                                        </div>
                                     )
                                 })}
                             </div> 
