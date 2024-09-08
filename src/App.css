@@ -83,3 +83,39 @@ a:hover{
   .text-add{
     color: rgba(169, 169, 177, 0.489);
   }
+
+  
+
+  .fs-12{
+    font-size: 12px;
+  }
+  .fs-13{
+    font-size: 13px;
+  }
+  .fs-14{
+    font-size: 14px;
+  }
+
+  
+   
+ .borderNotLast{
+    border-left: 1px dashed ;  
+  }
+  
+ .borderNotLast:last-child{
+    border-left: none;  
+  }
+  .borderNotLast .dot{
+    border-radius: 4px ;
+    padding: 4px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(-50%, 0%);
+  }
+  .borderNotLast .orderStatus{
+    position: relative;
+    top: -6px;
+  }
