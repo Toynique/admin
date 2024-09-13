@@ -1,12 +1,11 @@
 import { Helmet } from 'react-helmet-async';
 // @mui
 import { styled } from '@mui/material/styles';
-import { Link, Container, Typography, Divider, Stack, Button } from '@mui/material';
+import {  Container, Typography, } from '@mui/material';
 // hooks
 import useResponsive from '../hooks/useResponsive';
 // components
-import Logo from '../components/logo';
-import Iconify from '../components/iconify';
+import Logo from '../components/logo'; 
 // sections
 import { LoginForm } from '../sections/auth/login';
 
@@ -42,6 +41,7 @@ const StyledContent = styled('div')(({ theme }) => ({
 
 export default function LoginPage() {
   const mdUp = useResponsive('up', 'md');
+
 
   return (
     <>

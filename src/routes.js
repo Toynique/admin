@@ -22,6 +22,7 @@ import BannerPage from './pages/Banner';
 import AddBanner from './pages/AddBanner';
 import Order from './pages/Order';
 import OrderView from './pages/OrderView';
+import ResetPassword from './pages/ResetPassword';
 
 // ----------------------------------------------------------------------
 
@@ -53,6 +54,10 @@ export default function Router() {
     {
       path: 'login',
       element: <LoginPage />,
+    },
+    {
+      path: 'reset-password/:id/:otp',
+      element: <ResetPassword />,
     },
     {
       element: <SimpleLayout />,
