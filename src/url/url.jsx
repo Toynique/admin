@@ -9,7 +9,6 @@ export const orderStatusMessage = {
     processing: 'Processing',
     dispatched : "dispatched",
     'out for delivery' : "out for delivery",
-
     delivered: 'delivered',
     cancelled: 'cancelled'
 }
