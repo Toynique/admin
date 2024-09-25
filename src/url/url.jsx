@@ -11,4 +11,4 @@ export const orderStatusMessage = {
     'out for delivery' : "out for delivery",
     delivered: 'delivered',
     cancelled: 'cancelled'
-}
+} 
