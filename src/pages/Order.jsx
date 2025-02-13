@@ -216,7 +216,7 @@ const Order = () => {
   return (
     <>
       <Helmet>
-        <title> Dashboard: Products | Minimal UI </title>
+        <title> Dashboard: Products </title>
       </Helmet>
 
       <Container>
